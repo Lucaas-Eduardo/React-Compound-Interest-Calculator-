@@ -27,6 +27,7 @@ export default function App() {
     let percentage = 0;
 
     for (let i = 1; i <= monthlyPeriod; i++) {
+      //o calculo do juros não precisa depender de sinal
       const percentValue = (currentValue * Math.abs(rateInterest)) / 100;
 
       currentValue =
@@ -44,6 +45,7 @@ export default function App() {
         proffit: rateInterest > 0,
       });
     }
+    console.log(newInstallments);
     setInstallments(newInstallments);
   };
 
