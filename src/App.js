@@ -42,10 +42,10 @@ export default function App() {
         value: currentValue,
         difference: currentValue - initialInvestment,
         percentage,
-        proffit: rateInterest > 0,
+        profit: rateInterest > 0,
       });
     }
-    console.log(newInstallments);
+
     setInstallments(newInstallments);
   };
 
@@ -73,14 +73,14 @@ export default function App() {
       />
 
       <Installments>
-        {installments.map(({ id, value, difference, proffit, percentage }) => {
+        {installments.map(({ id, value, difference, profit, percentage }) => {
           return (
             <Installment
               key={id}
               id={id}
               value={value}
               difference={difference}
-              proffit={proffit}
+              profit={profit}
               percentage={percentage}
             />
           );
