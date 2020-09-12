@@ -11,7 +11,13 @@ compound interest concept
 Open [https://classic.yarnpkg.com/en/docs/install/#windows-stable]
 
 ## Install Dependencies
-### `yarn`
 
-### `yarn start`
+```
+yarn
+```
+
+## Start Server
+```
+yarn start
+```
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
