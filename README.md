@@ -1,4 +1,4 @@
-# React-Compound-Interest-Calculator-
+# React-Compound-Interest-Calculator
 
 This is a project that estimate a valuation and depreciation based on initial capital,
 interest rate and number of monthly installments, using the compound interest concept.
